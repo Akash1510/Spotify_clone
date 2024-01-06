@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Ropa+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Ropa+Sans&family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image: url("https://www.bing.com/th/id/OGC.018d7b37b92de9de39a83b671b2e3564?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fimages%2f018d7b37b92de9de39a83b671b2e3564%2ftenor.gif%3fitemid%3d11755946&ehk=EKCKJHymnllrC4BMcjcvhJbWtD98j8w4dTWzFwFUFL8%3d");
+    background-color: #f39696c4;
+    /* background-size:cover; */
+
+    
+}
+.brand img{
+    width:44px;
+    padding:0 8px;
+}
+nav{ 
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    align-items:center;
+    height:65px;
+    background-color: black;
+    color:white;
+
+
+}
+
+.li{
+    padding:5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+    padding:8px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family:'Ropa Sans', sans-serif;
+    display:flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url("https://w-dog.org/android-wallpapers/6/14/483307692322911/background-dark-album-vinyl-music.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+.bottom{
+    position:sticky;
+    height:130px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+    
+
+}
+.icons{
+    margin-top:40px;
+    cursor:hand;
+    font-size:smaller;
+    padding-top: 5px;
+}
+
+
+#MyProgressBar{
+    width:80vw;
+    cursor: hand;
+
+}
+
+.songlist{
+    margin-bottom:40px;
+}
+
+.songItemContainer{
+    margin-top:74px;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    width:80%;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    margin-block:20px 40px;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    
+
+
+}
+
+.songItem img{
+    height:30px;
+    width:30px;
+    margin:0 23px;
+    border-radius: 15px;
+
+}
+.timetemp,.far{
+    padding:5px;
+    cursor: hand;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-family:'Ropa Sans', sans-serif;
+    padding-bottom: 20px;
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition:opacity 0.4ms ease-in;
+}
